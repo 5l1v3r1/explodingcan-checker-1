@@ -2,6 +2,14 @@
 
 Checks whether a web server is vulnerable to CVE-2017-7269.
 
+## UPDATE ##
+
+After Microsoft decided to patch this vulnerability, **this script no longer works**: due to the nature of the checks done, it will report a false positive (vulnerable server) even if the server is not. 
+
+More details: https://www.secarma.co.uk/wannacry-what-is-next/
+
+----
+
 Based on:
  * https://www.exploit-db.com/exploits/41992/
  * https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7269
